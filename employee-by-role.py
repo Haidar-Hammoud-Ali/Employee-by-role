@@ -16,3 +16,6 @@ while True:
     employee[role].append({"name":name, "age":age})
 
     print (employee)
+
+total_employee=sum (len (x)for x in employee.values())
+print (f"The total numbers of employees in this company is: {total_employee}")
